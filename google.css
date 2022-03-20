@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  margin-top: 7px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.navbar ul li {
+  padding-right: 15px;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 12px;
+}
+
+.waffle {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 17px;
+}
+
+.signin {
+  cursor: pointer;
+  background-color: #1a73e8;
+  border: 1px solid transparent;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  padding: 8px 20px;
+}
+
+.container {
+  text-align: center;
+  color: #222222;
+  font-size: 12px;
+  margin: 92px;
+}
+
+.search {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.search-box {
+  display: inline-block;
+  border: 1px solid black;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 5px 10px;
+  width: 50%;
+  border-radius: 24px;
+}
+
+/* Search Box CSS */
+.fa {
+  font-size: 120%;
+  color: rgba(26, 25, 25, 0.322);
+}
+#text-box {
+  width: 92%;
+  padding: 5px 6px;
+  border-radius: 24px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Covid Guide Lines */
+
+.button-div {
+  margin: 25px 0;
+}
+
+.btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+  padding: 0 15px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  height: 36px;
+}
+
+.covid-guide {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.hindi {
+  margin-left: 5px;
+}
+.indian-lang {
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.text-container {
+  margin-bottom: 100px;
+}
+
+/* Footer */
+
+/* Country */
+
+footer {
+  width: 99.2%;
+  position: absolute;
+  bottom: 0;
+  background-color: #f2f2f2;
+}
+
+.country {
+  color: rgba(0, 0, 0, 0.54);
+  border-bottom: 1px solid #dadce0;
+  padding: 15px 30px;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.footer-menu ul {
+  list-style: none;
+  padding-left: 30px;
+  display: flex;
+}
+
+.footer-menu ul li {
+  padding-right: 20px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #70757a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.right-items {
+  text-align: right;
+}
